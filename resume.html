@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nourilee Santos — Resume</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <style>
+    body { background: white; }
+    .resume-page { max-width: 800px; margin: 0 auto; padding: 48px 40px; }
+    .resume-header { margin-bottom: 28px; border-bottom: 2px solid #7c3aed; padding-bottom: 20px; }
+    .resume-header h1 { font-size: 28px; font-weight: 800; color: #111827; margin-bottom: 4px; letter-spacing: -0.5px; }
+    .resume-header .title { font-size: 15px; color: #6b7280; margin-bottom: 12px; }
+    .resume-header .contact-line { font-size: 12px; color: #6b7280; display: flex; flex-wrap: wrap; gap: 12px; }
+    .resume-header .contact-line a { color: #7c3aed; text-decoration: none; }
+    .resume-section { margin-bottom: 28px; }
+    .resume-section h2 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #7c3aed; margin-bottom: 12px; padding-bottom: 4px; border-bottom: 1px solid #e5e7eb; }
+    .resume-section p, .resume-section li { font-size: 13px; color: #374151; line-height: 1.7; }
+    .resume-section ul { list-style: disc; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; }
+    .job { margin-bottom: 22px; }
+    .job-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 4px; margin-bottom: 4px; }
+    .job-title { font-size: 14px; font-weight: 700; color: #111827; }
+    .job-company { font-size: 13px; font-weight: 600; color: #7c3aed; }
+    .job-meta { font-size: 12px; color: #9ca3af; }
+    .skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+    .skill-group dt { font-size: 12px; font-weight: 700; color: #111827; margin-bottom: 3px; }
+    .skill-group dd { font-size: 12px; color: #6b7280; line-height: 1.5; }
+    @media print {
+      body { background: white; }
+      .resume-page { padding: 0; max-width: none; }
+      .no-print { display: none !important; }
+      a { color: inherit !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="no-print" style="background:#f8fafc;padding:12px 24px;border-bottom:1px solid #e5e7eb;display:flex;justify-content:space-between;align-items:center;">
+    <a href="index.html" style="font-size:13px;color:#7c3aed;font-weight:600;">← Back to Portfolio</a>
+    <button onclick="window.print()" style="background:linear-gradient(90deg,#7c3aed,#2563eb);color:white;border:none;padding:8px 16px;border-radius:6px;font-size:12px;font-weight:600;cursor:pointer;">Print / Save as PDF</button>
+  </div>
+
+  <div class="resume-page">
+
+    <div class="resume-header">
+      <h1>Nourilee Santos</h1>
+      <div class="title">Senior QA Automation Engineer | Automation Consultant</div>
+      <div class="contact-line">
+        <span>Cavite, Philippines (Open to Remote)</span>
+        <span>+63 915 614 3858</span>
+        <a href="mailto:nourilee.santos@gmail.com">nourilee.santos@gmail.com</a>
+        <a href="https://linkedin.com/in/nourileesantos" target="_blank">linkedin.com/in/nourileesantos</a>
+        <a href="https://github.com/nourilee" target="_blank">github.com/nourilee</a>
+        <a href="https://nourilee.github.io/about-me" target="_blank">nourilee.github.io/about-me</a>
+      </div>
+    </div>
+
+    <div class="resume-section">
+      <h2>Professional Summary</h2>
+      <p>Senior QA Automation Engineer with 10+ years of experience building test automation from the ground up across web, mobile, and enterprise platforms. Currently in a senior engineering role at a fintech company while taking on select consulting engagements to help teams kickstart automation. Deep expertise in Playwright, Selenium, WebdriverIO, and Appium with JavaScript/Java stacks — from framework design to CI/CD integration. Proven track record of cutting regression cycle times by 90%+, scaling coverage to 80%, and leading QA teams through acquisition and platform migration. Actively building AI-augmented QA tooling using Claude and Playwright MCP.</p>
+    </div>
+
+    <div class="resume-section">
+      <h2>Core Technical Skills</h2>
+      <dl class="skills-grid">
+        <div class="skill-group">
+          <dt>Automation</dt>
+          <dd>Playwright · Selenium WebDriver · WebdriverIO · Appium (Android &amp; iOS) · Cucumber/BDD · Page Object Model · Hybrid/Modular Frameworks</dd>
+        </div>
+        <div class="skill-group">
+          <dt>Languages</dt>
+          <dd>JavaScript (Node.js) · Java · SQL</dd>
+        </div>
+        <div class="skill-group">
+          <dt>API Testing</dt>
+          <dd>REST API Automation · Postman · JSON Schema Validation · API Chaining &amp; Auth</dd>
+        </div>
+        <div class="skill-group">
+          <dt>CI/CD &amp; DevOps</dt>
+          <dd>Jenkins · CircleCI · GitLab CI · GitHub Actions · Git</dd>
+        </div>
+        <div class="skill-group">
+          <dt>Platforms</dt>
+          <dd>BrowserStack · IBM i (AS/400)</dd>
+        </div>
+        <div class="skill-group">
+          <dt>AI for QA</dt>
+          <dd>Claude API · Playwright MCP · AI-assisted test generation</dd>
+        </div>
+        <div class="skill-group">
+          <dt>Methodologies</dt>
+          <dd>Agile/Scrum · Risk-Based Testing · Regression Strategy · TDD/BDD</dd>
+        </div>
+      </dl>
+    </div>
+
+    <div class="resume-section">
+      <h2>Professional Experience</h2>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-company">First Digital Finance Corporation (FDFC)</span>
+          <span class="job-meta">Remote (Philippines) · Aug 2024 – Present</span>
+        </div>
+        <div class="job-title">Senior QA Automation Engineer</div>
+        <ul>
+          <li>Lead test automation maintenance for the Android automation team using Appium and WebdriverIO.</li>
+          <li>Expand automated regression coverage within an existing mobile framework, improving release confidence across Android, web, and iOS.</li>
+          <li>Execute regression test suites per release using BrowserStack across multiple device configurations.</li>
+          <li>Review and approve merge requests across Android, web, and iOS automation repositories.</li>
+          <li>Concurrent: advising 1–2 early-stage projects on automation strategy and framework setup on a part-time basis.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-company">Harver (formerly LaunchPad Recruits)</span>
+          <span class="job-meta">Remote · Jan 2019 – Aug 2024 (5.5 years)</span>
+        </div>
+        <div class="job-title">QA Automation Engineer → Automation Lead</div>
+        <ul>
+          <li>Built the company's automated regression suite from scratch — ~200 test cases covering ~80% of regression scope.</li>
+          <li>Reduced regression cycle time by ~93%: from 2–3 days of manual effort to under 3 hours of automated runs.</li>
+          <li>Promoted to Automation Lead, overseeing 1–2 QA engineers, setting automation standards, and leading code reviews.</li>
+          <li>Integrated automation into CI/CD pipelines, enabling continuous regression runs before each release.</li>
+          <li>One of two employees retained by Harver post-acquisition; led migration of LaunchPad's automation suite to Harver's platform.</li>
+          <li>Implemented API validations supporting end-to-end scenarios across multiple service integrations.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-company">RightCrowd Software Inc.</span>
+          <span class="job-meta">Pasig, Philippines · Aug 2017 – Dec 2018</span>
+        </div>
+        <div class="job-title">Senior Software QA Automation Engineer</div>
+        <ul>
+          <li>Enhanced Selenium-based automation framework, increasing regression coverage for access management workflows.</li>
+          <li>Executed integration and system testing across multiple environments.</li>
+          <li>Performed SQL database validation ensuring data integrity across identity and access records.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-company">IBM Solutions Delivery Inc.</span>
+          <span class="job-meta">Quezon City, Philippines · Sep 2011 – Aug 2017 (6 years)</span>
+        </div>
+        <div class="job-title">Senior IT Specialist, Test &amp; Development</div>
+        <ul>
+          <li>Senior contributor on enterprise application delivery projects for IBM's global clients across the full SDLC.</li>
+          <li>Developed test cases, technical/functional specifications, and estimates across multiple client engagements.</li>
+          <li>Developed automated test suites and contributed to framework design.</li>
+          <li>Assumed lead responsibilities on delegation from Project Manager, overseeing quality of team deliverables.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="resume-section">
+      <h2>Education &amp; Training</h2>
+      <div class="job">
+        <div class="job-header">
+          <span class="job-company">De La Salle University – Dasmariñas (DLSU-D)</span>
+          <span class="job-meta">2003</span>
+        </div>
+        <div class="job-title">BS Computer Science</div>
+      </div>
+      <div class="job" style="margin-top:12px;">
+        <div class="job-title" style="margin-bottom:6px;">Professional Development (IBM Global Business Services)</div>
+        <ul>
+          <li>DevOps Technical Workshop — August 2016</li>
+          <li>LEAN Workshop — March 2015</li>
+          <li>Taking the Stage: Women Leadership Seminar — August 2014</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="resume-section">
+      <h2>Links</h2>
+      <div class="contact-line" style="font-size:13px;color:#6b7280;">
+        <a href="https://linkedin.com/in/nourileesantos">LinkedIn</a>
+        <a href="https://github.com/nourilee">GitHub (nourilee)</a>
+        <a href="https://github.com/santosn-qa">GitHub (santosn-qa)</a>
+        <a href="https://nourilee.github.io/about-me">Portfolio</a>
+        <a href="https://nourilee.github.io/qa-handbook">QA Handbook</a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
