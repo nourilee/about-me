@@ -1,0 +1,71 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-11-07T03:06:09.082Z",
+        "reason": "Claude: throwaway decision-round sketch for a redesign that will replace DESIGN.md"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/pick.html"
+        ],
+        "createdAt": "2026-11-07T03:06:09.097Z",
+        "reason": "Claude: throwaway decision-round sketch for a redesign that will replace DESIGN.md"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/pick.html"
+        ],
+        "createdAt": "2026-11-07T03:06:09.112Z",
+        "reason": "Claude: throwaway decision-round sketch; stamp contrast resolved at build"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned-r1.html"
+        ],
+        "createdAt": "2026-11-07T03:08:49.077Z",
+        "reason": "Claude: throwaway decision-round sketch for a redesign that will replace DESIGN.md"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/pick-r1.html"
+        ],
+        "createdAt": "2026-11-07T03:08:49.092Z",
+        "reason": "Claude: throwaway decision-round sketch for a redesign that will replace DESIGN.md"
+      },
+      {
+        "rule": "skipped-heading",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-11-07T03:22:33.888Z",
+        "reason": "Claude: throwaway decision-round sketch, not shipped; direction set aside"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-07T04:15:03.193Z",
+        "reason": "Claude: the tool strip is a deliberate full-bleed, edge-to-edge scrolling band; its items slide past the viewport edges by design"
+      }
+    ]
+  }
+}

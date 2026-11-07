@@ -7,7 +7,16 @@
   <link rel="icon" href="assets/favicon-32x32.png" type="image/png" sizes="32x32" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
   <title>Consulting — Nourilee Santos</title>
-  <meta name="description" content="Select QA automation consulting engagements — framework setup, automation strategy, and team uplift." />
+  <meta name="description" content="Part-time QA automation consulting: framework setup, automation strategy and team uplift." />
+  <meta property="og:title" content="Consulting — Nourilee Santos" />
+  <meta property="og:description" content="Part-time QA automation consulting: framework setup, automation strategy and team uplift." />
+  <meta property="og:image" content="https://nourilee.github.io/about-me/images/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://nourilee.github.io/about-me/consulting.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="preload" href="assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="stylesheet" href="assets/css/main.css" />
   <script src="assets/js/theme.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-QLPSYLTSFE"></script>
@@ -16,83 +25,106 @@
 </head>
 <body>
 
-  <div class="gradient-bar"></div>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10.5V17"/><path d="M8 7.5v.01"/><path d="M12 17v-6.5"/><path d="M12 13.2c0-1.6 1.1-2.7 2.5-2.7s2.5 1 2.5 2.7V17"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6-5.4-6-11a6 6 0 0 1 12 0c0 5.6-6 11-6 11z"/><circle cx="12" cy="10" r="2.2"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></symbol>
+    <symbol id="i-github" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></symbol>
+  </svg>
 
-  <nav class="nav">
-    <a href="index.html" class="nav-logo">nourilee.santos</a>
-    <div class="nav-links">
-      <a href="automation.html">Automation</a>
-      <a href="ai-for-qa.html">AI for QA ✦</a>
-      <a href="consulting.html" class="active">Consulting</a>
-      <a href="artifacts.html">Work</a>
-      <a href="index.html#contact">Contact</a>
-      <div class="theme-toggle" aria-label="Toggle theme">
-        <button data-theme="light" onclick="toggleTheme('light')">☀️</button>
-        <button data-theme="dark"  onclick="toggleTheme('dark')">🌙</button>
-      </div>
-    </div>
-    <button class="nav-hamburger" onclick="document.querySelector('.nav-links').classList.toggle('nav-open')" aria-label="Toggle navigation">
-      <span></span><span></span><span></span>
-    </button>
-  </nav>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <div class="page-hero">
-    <div class="hero-badge">Select Engagements · Part-Time</div>
-    <h1>QA Automation<br><span class="gradient-text">Consulting</span></h1>
-    <p>I take on a small number of part-time engagements to help teams get automation off the ground — or get it back on track. Whether you're starting from zero or inheriting a framework nobody trusts, let's talk.</p>
-  </div>
+  <header class="site-header">
+    <div class="gradient-bar"></div>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html" class="nav-logo">nourilee.santos</a>
+      <div class="nav-links" id="site-menu">
+        <a href="automation.html">Experience</a>
+        <a href="artifacts.html">Sample work</a>
+        <a href="ai-for-qa.html">AI for QA</a>
+        <a href="consulting.html" aria-current="page">Consulting</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="resume.pdf" download class="nav-cta" onclick="window.gtag&&gtag('event','resume_download',{event_category:'engagement',event_label:'nav_button'})"><svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>Résumé</a>
+        <div class="theme-toggle" role="group" aria-label="Colour theme">
+          <button type="button" data-theme="light" aria-label="Light theme" aria-pressed="false" onclick="toggleTheme('light')"><svg class="icon" aria-hidden="true"><use href="#i-sun"/></svg></button>
+          <button type="button" data-theme="dark" aria-label="Dark theme" aria-pressed="false" onclick="toggleTheme('dark')"><svg class="icon" aria-hidden="true"><use href="#i-moon"/></svg></button>
+        </div>
+      </div>
+      <button type="button" class="nav-hamburger" data-nav-toggle aria-controls="site-menu" aria-expanded="false" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
 
-  <div class="content-section">
-    <div class="section-label">What I Help With</div>
-    <div class="pillars">
-      <div class="card card-purple">
-        <div class="card-icon">🏗️</div>
-        <h3>Framework Setup from Scratch</h3>
-        <p>Design and build a test automation framework tailored to your stack — web, mobile, or API. Page Object Model, BDD, or hybrid. CI/CD integrated from day one.</p>
-      </div>
-      <div class="card card-blue">
-        <div class="card-icon">🗺️</div>
-        <h3>Automation Strategy &amp; Coverage Planning</h3>
-        <p>Risk-based test planning, coverage gap analysis, and a pragmatic roadmap for teams that want to automate but aren't sure where to start or what to prioritise.</p>
-      </div>
-      <div class="card card-purple">
-        <div class="card-icon">👥</div>
-        <h3>Team Uplift &amp; Standards</h3>
-        <p>Code review, automation standards, and mentoring for QA engineers. For teams that have automation but want it to be more consistent, more maintainable, and more trusted.</p>
-      </div>
-    </div>
-  </div>
+  <main id="main">
 
-  <div class="content-section">
-    <div class="section-label">How It Works</div>
-    <div class="process-steps">
-      <div class="process-step">
-        <div class="step-number">01</div>
-        <h3>Reach Out</h3>
-        <p>Send a message through the contact form or email directly. Describe what you're working on and what's not working.</p>
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="wrap">
+        <h1 id="page-title">Consulting</h1>
+        <p class="lead">I take on a small number of part-time engagements to help teams get automation off the ground, or get it back on track. Whether you're starting from zero or inheriting a framework nobody trusts, let's talk.</p>
       </div>
-      <div class="process-step">
-        <div class="step-number">02</div>
-        <h3>Scoping Call</h3>
-        <p>A short call to understand your stack, team size, and goals. I'll give you an honest read on what's achievable and what timeline makes sense.</p>
-      </div>
-      <div class="process-step">
-        <div class="step-number">03</div>
-        <h3>Engagement</h3>
-        <p>Part-time, focused work. I embed with your team, build what needs to be built, and hand it off with documentation and a path forward.</p>
-      </div>
-    </div>
-  </div>
+    </section>
 
-  <div class="contact-teaser">
-    <h2>Ready to talk?</h2>
-    <p>nourilee.santos@gmail.com</p>
-    <a href="index.html#contact" class="btn-primary">Send a Message</a>
-  </div>
+    <section class="section split" aria-labelledby="help-title">
+      <div class="wrap">
+        <header class="section-head">
+        <h2 id="help-title">What I help with.</h2>
+        </header>
+        <div class="section-body">
+        <ul class="rows" data-stagger>
+          <li><div><h3>Framework setup from scratch</h3><p>Design and build a test automation framework tailored to your stack: web, mobile or API. Page Object Model, BDD or hybrid, integrated with CI/CD from day one.</p></div></li>
+          <li><div><h3>Automation strategy and coverage planning</h3><p>Risk-based test planning, coverage gap analysis and a pragmatic roadmap, for teams that want to automate but aren't sure where to start or what to prioritise.</p></div></li>
+          <li><div><h3>Team uplift and standards</h3><p>Code review, automation standards and mentoring for QA engineers, for teams that have automation but want it more consistent, more maintainable and more trusted.</p></div></li>
+        </ul>
+        </div>
+      </div>
+    </section>
 
-  <footer>
-    <a href="index.html" class="back-link">← Back to Home</a>
+    <section class="section" aria-labelledby="how-title">
+      <div class="wrap">
+        <h2 id="how-title">How it works.</h2>
+        <ol class="steps" data-stagger>
+          <li><h3>Reach out</h3><p>Send a message through the contact form or by email. Describe what you're working on and what isn't working.</p></li>
+          <li><h3>Scoping call</h3><p>A short call to understand your stack, team size and goals. I'll give you an honest read on what's achievable and what timeline makes sense.</p></li>
+          <li><h3>Engagement</h3><p>Part-time, focused work. I embed with your team, build what needs building, and hand it off with documentation and a path forward.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="close" aria-labelledby="close-title">
+      <div class="wrap">
+        <h2 id="close-title">Ready to talk?</h2>
+        <p class="intro">Email is quickest. The contact form works too.</p>
+        <div class="actions">
+          <a href="resume.pdf" download class="btn btn-primary" onclick="window.gtag&&gtag('event','resume_download',{event_category:'engagement',event_label:'contact_button'})"><svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>Download résumé <span class="visually-hidden">(PDF)</span></a>
+          <a href="https://www.linkedin.com/in/nourileesantos/" class="btn"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>LinkedIn</a>
+          <a href="https://github.com/nourilee" class="btn"><svg class="icon icon-fill" viewBox="0 0 16 16" aria-hidden="true"><use href="#i-github"/></svg>GitHub</a>
+          <a href="mailto:nourilee.santos@gmail.com" class="btn"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>nourilee.santos@gmail.com</a>
+        </div>
+        <p class="close-note">
+          <span>Prefer a form? <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_8wTMM2lC1-4fJjQP-noMIxIu-p00ivH3nninkP90zPvbiA/viewform">Open the contact form</a></span>
+          <span>Based in Tanza, Cavite, Philippines</span>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
     <span>© 2026 Nourilee Santos</span>
+    <nav aria-label="Footer">
+      <a href="automation.html">Experience</a>
+      <a href="artifacts.html">Sample work</a>
+      <a href="ai-for-qa.html">AI for QA</a>
+      <a href="consulting.html">Consulting</a>
+      <a href="https://nourilee.github.io/qa-handbook">QA Handbook</a>
+    </nav>
   </footer>
 
 </body>
