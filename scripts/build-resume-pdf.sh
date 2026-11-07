@@ -5,7 +5,8 @@
 set -eu
 cd "$(dirname "$0")/.."
 CHROME="${CHROME:-/Applications/Google Chrome.app/Contents/MacOS/Google Chrome}"
-TMP="resume.print.tmp.html"
+TMP="$(mktemp "$PWD/resume.print.XXXXXX.html")"
+trap 'rm -f "$TMP"' EXIT HUP INT TERM
 PHONE=""
 [ -f .resume-phone ] && PHONE="$(head -n1 .resume-phone)"
 if [ -n "$PHONE" ]; then
