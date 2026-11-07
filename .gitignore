@@ -13,3 +13,8 @@
 .impeccable/live/
 .impeccable/hook.cache.json
 .impeccable/config.local.json
+
+# TestPilot showcase source files (the site serves assets/video/ instead)
+/testpilot-showcase/
+/testpilot-showcase.mp4
+/captions.srt

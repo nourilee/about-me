@@ -256,15 +256,16 @@ img { max-width: 100%; display: block; }
 .skills h3 { font-size: 20px; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 8px; }
 .skills p { color: var(--muted); }
 
-/* ---------- Steps (consulting: order carries meaning) ---------- */
-.steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; counter-reset: step; }
-.steps li { border-top: 2px solid var(--text); padding-top: 18px; counter-increment: step; }
-.steps li::before {
-  content: "Step " counter(step); display: block; margin-bottom: 8px;
-  font-size: 15px; font-weight: 600; color: var(--accent-text); font-variant-numeric: tabular-nums;
+/* ---------- Demo video (consulting) ---------- */
+.demo { margin: 0; }
+.demo-video {
+  display: block; width: 100%; height: auto; aspect-ratio: 16 / 9;
+  border-radius: 14px; border: 1px solid var(--border); background: var(--band); color: var(--band-text);
 }
-.steps h3 { font-size: 22px; font-weight: 700; letter-spacing: -0.015em; margin-bottom: 8px; }
-.steps p { color: var(--muted); }
+.demo figcaption { margin-top: 12px; font-size: 15px; color: var(--subtle); }
+.transcript { margin-top: 28px; max-width: 68ch; }
+.transcript summary { cursor: pointer; font-weight: 600; width: fit-content; }
+.transcript p { color: var(--muted); margin-top: 14px; }
 
 /* ---------- Case studies ---------- */
 .case { padding: 64px 0; border-bottom: 1px solid var(--border-strong); }
@@ -322,7 +323,7 @@ img { max-width: 100%; display: block; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 960px) {
-  .facts, .skills, .steps, .case-body, .case-pair { grid-template-columns: 1fr; gap: 28px; }
+  .facts, .skills, .case-body, .case-pair { grid-template-columns: 1fr; gap: 28px; }
   .bar-row { grid-template-columns: 1fr auto; gap: 8px 16px; }
   .bar-row .bar { grid-column: 1 / -1; grid-row: 2; }
   .compare figcaption { padding-left: 0; }
@@ -433,7 +434,7 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0
 /* Bricolage at display sizes: tighter, a touch condensed, full weight */
 .hero-name, .page-hero h1, .section h2, .close h2 { font-stretch: 92%; letter-spacing: -0.04em; }
 .hero-name { font-size: clamp(52px, 8vw, 104px); line-height: 0.92; }
-.tagline, .rows h3, .timeline h3, .case h2, .steps h3, .skills h3 { letter-spacing: -0.02em; }
+.tagline, .rows h3, .timeline h3, .case h2, .skills h3 { letter-spacing: -0.02em; }
 .hero-role, .where, .status, .bar-label strong { font-stretch: 100%; }
 .nav-logo { font-stretch: 85%; font-size: 18px; letter-spacing: -0.02em; }
 

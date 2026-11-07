@@ -86,14 +86,30 @@
       </div>
     </section>
 
-    <section class="section" aria-labelledby="how-title">
+    <section class="section" aria-labelledby="demo-title">
       <div class="wrap">
-        <h2 id="how-title">How it works.</h2>
-        <ol class="steps" data-stagger>
-          <li><h3>Reach out</h3><p>Send a message through the contact form or by email. Describe what you're working on and what isn't working.</p></li>
-          <li><h3>Scoping call</h3><p>A short call to understand your stack, team size and goals. I'll give you an honest read on what's achievable and what timeline makes sense.</p></li>
-          <li><h3>Engagement</h3><p>Part-time, focused work. I embed with your team, build what needs building, and hand it off with documentation and a path forward.</p></li>
-        </ol>
+        <h2 id="demo-title">See it in action.</h2>
+        <p class="intro">TestPilot is the AI-assisted QA workflow I built and use day to day. AI explores a real browser and drafts test scenarios. Rules I wrote limit what it can do, and only the scenarios I approve become automated tests. I can set up the same kind of workflow for your team.</p>
+        <figure class="demo">
+          <video class="demo-video" controls playsinline preload="none" width="1920" height="1080"
+                 poster="assets/video/testpilot-showcase-poster.jpg"
+                 aria-describedby="demo-transcript"
+                 onplay="window.gtag&&!this.dataset.tracked&&(this.dataset.tracked=1,gtag('event','video_play',{event_category:'engagement',event_label:'testpilot_showcase'}))">
+            <source src="assets/video/testpilot-showcase.mp4" type="video/mp4" />
+            Your browser can't play this video. <a href="assets/video/testpilot-showcase.mp4">Download the TestPilot showcase (MP4)</a>.
+          </video>
+          <figcaption>TestPilot showcase · 1 min 19 s · captions shown in the video</figcaption>
+        </figure>
+        <details class="transcript" id="demo-transcript">
+          <summary>Read the transcript</summary>
+          <p>Software quality engineering is evolving. Writing test scripts is no longer the whole job. The job is building smarter workflows.</p>
+          <p>I combine QA automation with practical AI engineering, starting with the requirement itself. Every feature gets four reviews: quality, business, product, and user experience.</p>
+          <p>I package that judgment into reusable AI skills. They run regression passes, write clear bug reports, and test mobile apps. And they check with me before they act.</p>
+          <p>With TestPilot, I describe a user journey in plain words, and AI explores a real browser, step by step. But it never acts alone. Rules I wrote check every action, and a safety guard blocks real orders.</p>
+          <p>What it finds becomes test scenarios that wait for my review. Only the ones I approve become automated tests.</p>
+          <p>And it isn't tied to one tool. The same layer runs web tests and mobile app tests.</p>
+          <p>From requirement to quality insight, AI does the heavy lifting. But it shouldn't replace engineering judgment. It should amplify it. I don't just automate tests. I engineer smarter QA workflows.</p>
+        </details>
       </div>
     </section>
 
