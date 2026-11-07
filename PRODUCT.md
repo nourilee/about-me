@@ -30,8 +30,8 @@ Nourilee builds automation suites from nothing that last. The proof is concrete:
 ## Operating Context
 
 - Visitors arrive from LinkedIn, job applications, GitHub, and direct links. They skim the hero and stats, then go into a detail page or straight to the resume.
-- Pages: `index.html` (home), `automation.html`, `ai-for-qa.html`, `consulting.html`, `artifacts.html` (sample work), `resume.html` (print source), `resume.pdf`. `elements.html`, `generic.html`, and `iseries.html` are leftovers from the Hyperspace template.
-- External destinations: github.com/nourilee, github.com/santosn-qa, nourilee.github.io/qa-handbook, linkedin.com/in/nourileesantos, and a Google Form embed for contact.
+- Pages: `index.html` (home), `automation.html`, `ai-for-qa.html`, `consulting.html`, `artifacts.html` (sample work), `resume.html` (print source), `resume.pdf`, and `404.html`.
+- External destinations: github.com/nourilee, github.com/santosn-qa, nourilee.github.io/qa-handbook, linkedin.com/in/nourileesantos, and a Google Form link for contact.
 - The site has a light/dark theme toggle, persisted in `localStorage`.
 
 ## Capabilities and Constraints
