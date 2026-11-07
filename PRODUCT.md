@@ -45,7 +45,7 @@ Nourilee builds automation suites from nothing that last. The proof is concrete:
   - No "Available for consulting" badge. Consulting is framed as "select engagements".
   - AI projects are labeled "In Progress" only, with no overclaiming and no implied employer or source.
 - **Metrics:** use only the sourced figures: 10+ years, ~93% regression reduction (2–3 days → under 3 hours), ~80% regression coverage, ~200 test cases.
-- **Undecided:** whether to delete the leftover template pages (`elements.html`, `generic.html`, `iseries.html`).
+- **Clean-up complete:** the leftover template pages (`elements.html`, `generic.html`, `iseries.html`) were removed.
 
 ## Brand Commitments
 
